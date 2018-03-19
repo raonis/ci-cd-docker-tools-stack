@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.pipeline.maven.GlobalPipelineMavenConfig plugin="pipeline-maven@3.4.3">
+  <triggerDownstreamUponResultSuccess>true</triggerDownstreamUponResultSuccess>
+  <triggerDownstreamUponResultUnstable>false</triggerDownstreamUponResultUnstable>
+  <triggerDownstreamUponResultFailure>false</triggerDownstreamUponResultFailure>
+  <triggerDownstreamUponResultNotBuilt>false</triggerDownstreamUponResultNotBuilt>
+  <triggerDownstreamUponResultAborted>false</triggerDownstreamUponResultAborted>
+  <publisherOptions/>
+</org.jenkinsci.plugins.pipeline.maven.GlobalPipelineMavenConfig>

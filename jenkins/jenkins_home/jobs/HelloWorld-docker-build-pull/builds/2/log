@@ -1,0 +1,7 @@
+Started by upstream project "[8mha:////4I+wJckj/GCAIlcuVHWvt9EjSNbxRkEw3mY+RlwQ0X0zAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH2P1Jyc/PD8opwU3aTSzJwUfQBro1c3ywAAAA==[0mHelloWorld-build" build number [8mha:////4FP8JK+h5ihiy/82x+IGyYIF5wLfxK+Wy6e8qL6+AvWPAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwkfY/UnJz88PyinBTdpNLMnBR9IwBNhF9xzAAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/HelloWorld-docker/workspace
+[workspace] $ /bin/bash /tmp/jenkins7657020125981764384.sh
+/tmp/jenkins7657020125981764384.sh: line 3: /bin/docker: cannot execute binary file: Exec format error
+Finished: SUCCESS

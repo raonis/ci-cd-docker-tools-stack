@@ -1,0 +1,64 @@
+--- Copying files at Sun Mar 18 15:18:21 UTC 2018
+INSTALLED jenkins.install.UpgradeWizard.state
+INSTALLED .ssh/id_rsa.pub
+INSTALLED .ssh/id_rsa
+INSTALLED credentials.xml
+INSTALLED org.jenkinsci.plugins.configfiles.GlobalConfigFiles.xml
+INSTALLED hudson.plugins.groovy.Groovy.xml
+INSTALLED hudson.tasks.Maven.xml
+INSTALLED config.xml
+INSTALLED jobs/job-dsl-seed-job/config.xml
+INSTALLED plugins/ace-editor.jpi : 1.1
+INSTALLED plugins/workflow-basic-steps.jpi : 2.6
+INSTALLED plugins/docker-commons.jpi : 1.11
+INSTALLED plugins/workflow-scm-step.jpi : 2.6
+INSTALLED plugins/workflow-durable-task-step.jpi : 2.19
+INSTALLED plugins/pipeline-rest-api.jpi : 2.9
+INSTALLED plugins/pipeline-stage-step.jpi : 2.3
+INSTALLED plugins/pipeline-graph-analysis.jpi : 1.6
+INSTALLED plugins/display-url-api.jpi : 2.2.0
+INSTALLED plugins/momentjs.jpi : 1.1.1
+INSTALLED plugins/workflow-api.jpi : 2.26
+INSTALLED plugins/plain-credentials.jpi : 1.4
+INSTALLED plugins/apache-httpcomponents-client-4-api.jpi : 4.5.3-2.1
+INSTALLED plugins/authentication-tokens.jpi : 1.3
+INSTALLED plugins/pipeline-model-extensions.jpi : 1.2.7
+INSTALLED plugins/mailer.jpi : 1.20
+INSTALLED plugins/structs.jpi : 1.14
+INSTALLED plugins/pipeline-model-declarative-agent.jpi : 1.1.1
+INSTALLED plugins/token-macro.jpi : 2.3
+INSTALLED plugins/pipeline-stage-view.jpi : 2.9
+INSTALLED plugins/jquery-detached.jpi : 1.2.1
+INSTALLED plugins/clone-workspace-scm.jpi : 0.6
+INSTALLED plugins/workflow-aggregator.jpi : 2.5
+INSTALLED plugins/ssh-credentials.jpi : 1.13
+INSTALLED plugins/pipeline-model-api.jpi : 1.2.7
+INSTALLED plugins/credentials.jpi : 2.1.16
+INSTALLED plugins/pipeline-stage-tags-metadata.jpi : 1.2.7
+INSTALLED plugins/credentials-binding.jpi : 1.15
+INSTALLED plugins/workflow-cps-global-lib.jpi : 2.9
+INSTALLED plugins/workflow-cps.jpi : 2.45
+INSTALLED plugins/pipeline-model-definition.jpi : 1.2.7
+INSTALLED plugins/workflow-step-api.jpi : 2.14
+INSTALLED plugins/git-client.jpi : 2.7.1
+INSTALLED plugins/run-condition.jpi : 1.0
+INSTALLED plugins/pipeline-build-step.jpi : 2.7
+INSTALLED plugins/external-monitor-job.jpi : 1.7
+INSTALLED plugins/jackson2-api.jpi : 2.8.11.1
+INSTALLED plugins/branch-api.jpi : 2.0.18
+INSTALLED plugins/scm-api.jpi : 2.2.6
+INSTALLED plugins/jsch.jpi : 0.1.54.2
+INSTALLED plugins/workflow-multibranch.jpi : 2.17
+INSTALLED plugins/workflow-job.jpi : 2.17
+INSTALLED plugins/config-file-provider.jpi : 2.18
+INSTALLED plugins/script-security.jpi : 1.42
+INSTALLED plugins/git-server.jpi : 1.7
+INSTALLED plugins/docker-workflow.jpi : 1.15.1
+INSTALLED plugins/cloudbees-folder.jpi : 6.4
+INSTALLED plugins/ansicolor.jpi : 0.5.2
+INSTALLED plugins/workflow-support.jpi : 2.18
+INSTALLED plugins/pipeline-milestone-step.jpi : 1.3.1
+INSTALLED plugins/pipeline-input-step.jpi : 2.8
+INSTALLED plugins/handlebars.jpi : 1.1.1
+INSTALLED plugins/durable-task.jpi : 1.22
+INSTALLED init.groovy.d/tcp-slave-agent-port.groovy

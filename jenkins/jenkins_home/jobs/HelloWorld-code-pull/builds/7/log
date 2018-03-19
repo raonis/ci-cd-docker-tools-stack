@@ -1,0 +1,80 @@
+Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/HelloWorld/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/raonis/helloworld.git # timeout=10
+Fetching upstream changes from https://github.com/raonis/helloworld.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials STD
+ > git fetch --tags --progress https://github.com/raonis/helloworld.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9a086dcee2ff3cc0e332bf06e293fa547de60c68 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9a086dcee2ff3cc0e332bf06e293fa547de60c68
+Commit message: "Fisrt Commit"
+ > git rev-list --no-walk 9a086dcee2ff3cc0e332bf06e293fa547de60c68 # timeout=10
+[workspace] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.3/bin/mvn -f webapp/pom.xml test
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web Helloworld Example 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-web-jsp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-web-jsp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-web-jsp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 357 resources
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-web-jsp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ spring-boot-web-jsp ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.bah.demos.helloworld.WelcomeControllerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s - in com.bah.demos.helloworld.WelcomeControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.877 s
+[INFO] Finished at: 2018-03-18T18:36:08+00:00
+[INFO] Final Memory: 15M/94M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/Sonarqube/bin/sonar-scanner Sonar -e -Dsonar.host.url=localhost:9000 ******** -Dproject.settings=/var/jenkins_home/jobs/HelloWorld/workspace/webapp -Dsonar.projectBaseDir=/var/jenkins_home/jobs/HelloWorld/workspace
+INFO: Option -e/--errors is no longer supported and will be ignored
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/Sonarqube/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarQube Scanner 3.1.0.1141
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 4.9.60-linuxkit-aufs amd64
+INFO: User cache: /var/jenkins_home/.sonar/cache
+ERROR: SonarQube server [localhost:9000] can not be reached
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 1.642s
+INFO: Final Memory: 3M/31M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarQube Scanner execution
+ERROR: Unable to execute SonarQube
+ERROR: Caused by: Fail to get bootstrap index from server
+ERROR: Caused by: unexpected url: localhost:9000/batch/index
+ERROR: 
+ERROR: Re-run SonarQube Scanner using the -X switch to enable full debug logging.
+ERROR: SonarQube scanner exited with non-zero code: 1
+Finished: FAILURE

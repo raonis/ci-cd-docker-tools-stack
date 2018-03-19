@@ -1,0 +1,42 @@
+Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/HelloWorld/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/raonis/helloworld.git # timeout=10
+Fetching upstream changes from https://github.com/raonis/helloworld.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials STD
+ > git fetch --tags --progress https://github.com/raonis/helloworld.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9a086dcee2ff3cc0e332bf06e293fa547de60c68 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9a086dcee2ff3cc0e332bf06e293fa547de60c68
+Commit message: "Fisrt Commit"
+ > git rev-list --no-walk 9a086dcee2ff3cc0e332bf06e293fa547de60c68 # timeout=10
+[workspace] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.3/bin/mvn -f webapp/pom.xml sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=73444999751e58841770c0ac7c6fa11645ff347f
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web Helloworld Example 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4OsYDdpF0XVvY9mpn9twwn85SCa4g5rQRYyuucf6zkQAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- sonar-maven-plugin:3.3.0.603:sonar (default-cli) @ spring-boot-web-jsp ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] SonarQube server [http://localhost:9000] can not be reached
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.540 s
+[INFO] Finished at: 2018-03-18T18:42:13+00:00
+[INFO] Final Memory: 17M/95M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar (default-cli) on project spring-boot-web-jsp: Unable to execute SonarQube: Fail to get bootstrap index from server: Failed to connect to localhost/127.0.0.1:9000: Connection refused (Connection refused) -> [Help 1]
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4MiyuMocrWErUnJvgshyV78gVfUE2hbs+QUOcBPr6ygRAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

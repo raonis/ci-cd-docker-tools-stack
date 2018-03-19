@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-03-18 16:32:45.611 UTC</timestamp>
+  <md5sum>3ee6c191a04997d15989d49a0400027c</md5sum>
+  <fileName>Credential id=3550bba1-ee82-4387-a858-5ec26beb4e9e name=raonis/******</fileName>
+  <usages>
+    <entry>
+      <string>hello-world-app/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello-world-app/feature1</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

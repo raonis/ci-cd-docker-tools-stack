@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bjerre
+Build-Jdk: 1.8.0_151
+Extension-Name: git-changelog
+Specification-Title: Plugin creating changelogs based on Git's history
+  between two tags or revisions
+Implementation-Title: git-changelog
+Implementation-Version: 1.57
+Group-Id: de.wellnerbou.jenkins
+Short-Name: git-changelog
+Long-Name: Git Changelog
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Git+Changelog+Plugin
+Plugin-Version: 1.57
+Hudson-Version: 2.1
+Jenkins-Version: 2.1
+Plugin-Dependencies: plain-credentials:1.2,token-macro:1.10,credential
+ s:2.1.4,maven-plugin:2.9,git:2.3.5
+Plugin-Developers: Paul Wellner Bou:paulwellnerbou:paul@wellnerbou.de,
+ Tomas Bjerre:tomasbjerre:tomas.bjerre85@gmail.com
+

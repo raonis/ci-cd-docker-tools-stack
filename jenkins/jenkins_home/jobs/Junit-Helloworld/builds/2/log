@@ -1,0 +1,6 @@
+Started by upstream project "[8mha:////4D/MmIzgdXqO6/XTh6TwO6RukJW5jHTt2aMrmCNNH9dVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2P1Jyc/PD8opwUfQAHLyT/xQAAAA==[0mHelloWorld" build number [8mha:////4LeLPOZehnPnfQhqqZT9xJ+cMOnJXIh9y7PbZsRyCM8ZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwkfY/UnJz88PyinBR9UwBWp5SrxgAAAA==[0m5
+originally caused by:
+ Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/Junit-Helloworld/workspace
+ERROR: No such job '' exists. Perhaps you meant 'HelloWorld'?
+Finished: FAILURE

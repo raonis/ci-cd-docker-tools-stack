@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-03-18 16:58:08.44 UTC</timestamp>
+  <md5sum>52d2a59f5eafb5e3c5f09389fbc471ed</md5sum>
+  <fileName>Credential id=716de1f9-8cef-43ec-89b3-684b2b037156 name=raonis/****** (STD)</fileName>
+  <usages>
+    <entry>
+      <string>Junit-Helloworld</string>
+      <ranges>3-9</ranges>
+    </entry>
+    <entry>
+      <string>HelloWorld</string>
+      <ranges>1-15</ranges>
+    </entry>
+    <entry>
+      <string>HelloWorld-build</string>
+      <ranges>1-4</ranges>
+    </entry>
+    <entry>
+      <string>HelloWorld-Sonar</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

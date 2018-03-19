@@ -1,0 +1,5 @@
+Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/HelloWorld-docker/workspace
+[workspace] $ /bin/bash /tmp/jenkins8701482482100517962.sh
+/tmp/jenkins8701482482100517962.sh: line 3: /bin/docker: cannot execute binary file: Exec format error
+Finished: SUCCESS

@@ -1,0 +1,21 @@
+Started by user [8mha:////4KwRKp3uTdipaRRss0zK9MV7mUXherjnEhKpmiFAdA2MAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/job-dsl-seed-job/workspace
+Cloning the remote Git repository
+Cloning repository https://github.com/marcelbirkner/docker-ci-tool-stack
+ > git init /var/jenkins_home/jobs/job-dsl-seed-job/workspace # timeout=10
+Fetching upstream changes from https://github.com/marcelbirkner/docker-ci-tool-stack
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/marcelbirkner/docker-ci-tool-stack +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/marcelbirkner/docker-ci-tool-stack # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/marcelbirkner/docker-ci-tool-stack # timeout=10
+Fetching upstream changes from https://github.com/marcelbirkner/docker-ci-tool-stack
+ > git fetch --tags --progress https://github.com/marcelbirkner/docker-ci-tool-stack +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2489e0c29df998bc4d23c7725cf56a3569f02a03 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2489e0c29df998bc4d23c7725cf56a3569f02a03
+Commit message: "Merge pull request #60 from javier-lopez/patch-1"
+First time build. Skipping changelog.
+Finished: SUCCESS

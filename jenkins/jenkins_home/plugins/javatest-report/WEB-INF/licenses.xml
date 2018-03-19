@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins JavaTest report plugin' groupId='org.jenkins-ci.plugins' artifactId='javatest-report' version='1.6' url='http://wiki.jenkins-ci.org/display/JENKINS/JavaTest+Report+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

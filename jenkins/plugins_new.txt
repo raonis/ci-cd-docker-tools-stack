@@ -1,0 +1,15 @@
+ansicolor
+apache-httpcomponents-client-4-api
+authentication-tokens
+clone-workspace-scm
+config-file-provider
+display-url-api
+docker-workflow
+external-monitor-job
+jackson2-api
+mailer
+pipeline-model-declarative-agent
+pipeline-rest-api
+pipeline-stage-tags-metadata
+run-condition
+workflow-aggregator
